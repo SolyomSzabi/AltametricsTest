@@ -1,0 +1,33 @@
+.main {
+  display: grid;
+}
+
+.button {
+  text-align: center;
+  width: 100%;
+  max-width: 100px;
+  justify-self: center;
+  margin: 5px;
+}
+
+.table-container {
+  overflow: hidden;
+  margin: 5%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
